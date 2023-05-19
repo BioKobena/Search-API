@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/biopaulkobena/Documents/FastAPI Training/.venv/bin/python3.11" "$0" "$@"
+'''exec' "/Users/biopaulkobena/Documents/FastAPI Training/.venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
