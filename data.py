@@ -31,14 +31,19 @@ f1_teams = [
 
 
 def get_all_teams_from_fake_db() -> list:
-    """Rturn a list of F1 teams"""
+    """Return a list of F1 teams"""
     return f1_teams
 
 
 
 
-def get_all_teams_from_fake_db(team: str) -> Union[dict, None]:
-    for f1_team in f1_teams:
-        if f1_team.lower() == f1_team.get("team").lower():
-            return f1_team
-    return None
+# def get_team_from_fake_db(team: str) -> Union[dict, None]:
+#     for f1_team in f1_teams:
+#         if team == f1_team.get('team').lower():
+#             return f1_team
+        
+#     return None
+
+
+def get_team_by_id__from_fake_db(team: str) -> Union[dict, None]:
+    """Return a team"""
